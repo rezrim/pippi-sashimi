@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 
-bot.login(TOKEN);
+bot.login("NzUyNTEyNzExNjA2NDAzMDcy.X1YuEw._Ife4furhQFxFNAOTaTqekvqKbQ");
 
 function random_item(items) {
   return items[Math.floor(Math.random()*items.length)];
